@@ -1,0 +1,180 @@
+.booking{
+   display: flex;
+   padding-left: 85px;
+   margin-bottom: 64px;
+}
+.types{
+   width: 303px;
+   margin-right: 125px;
+}
+.types__list{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.types__item{
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid #83888F;
+   
+}
+.types__item:nth-child(5){
+   border: none;
+}
+.types__subject{
+   margin: 0;
+   margin-right: 25px;
+   font-family: Fraunces;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   color: #83888F;
+   transition: 0.3s;
+   &:hover{
+      color: #0E8784;
+      transition: 0.3s;
+   }
+}
+.types__text{
+   margin: 24px 0;
+   font-family: Fraunces;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   color: #83888F;
+   transition: 0.3s;
+   &:hover{
+      color: #333D4B;
+      transition: 0.3s;
+   }
+}
+.drinks__title__box{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 56px;
+}
+.drinks__title__box--first{
+   margin-bottom: 88px;
+}
+
+.drinks__title{
+   font-family: Fraunces 9pt;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #83888F;
+   margin: 0;
+   
+}
+.drinks__img{
+   object-fit: none;
+}
+.labels__box{
+   display: flex;
+   margin-bottom: 88px;
+}
+.drinks__input__box{
+   display: flex;
+   
+}
+
+.drinks__box{
+   width: 228px;
+   height: 250px;
+   margin: 0;
+   padding: 32px 28px 84px;
+   background-color: #F4F1EB;
+   border-radius: 8px;
+}
+.drinks__box:hover{
+   background: #FDD6BA;
+}
+.drinks__box--middle{
+   margin: 0 23px;
+}
+input:checked ~ .drinks__box{
+   background: #0E8784;
+}
+
+label{
+   display: flex;
+   justify-content: space-between;
+}
+
+.drinks__box__title{
+   font-family: Fraunces;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   color: #333D4B;
+   
+}
+.drinks__box__text{
+   font-family: Barlow;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #333D4B;
+}
+
+.order-summary{
+   padding: 47px 64px;
+   background-color: #2C343E;
+   border-radius: 10px;
+   margin-bottom: 40px;
+}
+blockquote{
+   font-family: Barlow;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FFFFFF;
+   mix-blend-mode: normal;
+   opacity: 0.5;
+}
+.order-summary__subject{
+   font-family: Fraunces;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 40px;
+   color: #FFFFFF;
+}
+.order-summary__green{
+   color: #0E8784;
+}
+.booking__link{
+   display: block;
+   margin-left: auto;
+   margin-bottom: 168px;
+   width: 217px;
+   font-family: Fraunces;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 13px;
+   line-height: 25px;
+   text-align: center;
+   color: #FEFCF7;
+   padding: 15px 35px ;
+   background: #E2DEDB;
+   border-radius: 6px;
+   text-decoration: none;
+   transition: 0.3s;
+   &:hover {
+      transition: 0.3s;
+      background: #66D2CF;
+      border-radius: 6px;
+   }
+   &:active {
+      transition: 0.3s;
+      background: #0E8784;
+   }
+}
+

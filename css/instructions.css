@@ -1,0 +1,117 @@
+.instructions {
+  padding-right: 44px;
+  padding-left: 80px;
+  margin-bottom: 200px;
+}
+
+.instructions__title {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 80px;
+}
+
+.instructions__line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 760px;
+  height: 0px;
+  border: 2px solid #FDD6BA;
+  position: relative;
+  background-color: #FDD6BA;
+}
+
+.circle {
+  width: 31px;
+  height: 31px;
+  background-color: #FEFCF7;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+}
+
+.instructions__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 64px;
+}
+
+.instructions__item {
+  width: 285px;
+}
+
+.instructions__item--middle {
+  margin-right: 95px;
+  margin-left: 95px;
+}
+
+.instructions__number {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+
+.instructions__subject__box {
+  width: 255px;
+}
+
+.instructions__subject {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+
+.instructions__text__box {
+  width: 285px;
+  height: 130px;
+}
+
+.instructions__text {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.instructions__link {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  padding: 15px 31px 16px 31px;
+  background: #0E8784;
+  border-radius: 6px;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.instructions__link:hover {
+  background: #66D2CF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=instructions.css.map */
